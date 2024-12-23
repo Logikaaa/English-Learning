@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: auto;
+    height: 100%;
+    background-color: #675BD8;
+    font-family: 'Montserrat';
+}
+
+.title{
+    color: white;
+    font-size: 64px;
+    font-weight: 300;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.title-block{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.title-block a{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    color: #675BD8;
+    width: 300px;
+    height: 70px;
+    background-color: #E6E6E6;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.title-block a:hover{
+    background-color: #675BD8;
+    color: white;
+}
+
+.title-block a:active{
+    box-shadow: 2px 2px 15px black;
+}
+
+.words-card{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.word-en{
+    color: #675BD8;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.word-uk{
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.words{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.arrow:hover{
+    display: block;
+    width: 40px;
+}
+
+.test-card{
+    background-color: white;
+    width: 60%;
+    height: 300px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-q{
+    color: #675BD8;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.test{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.true:active{
+    color: #7CDC8C;
+}
+
+.false:active{
+    color: #ED706B;
+}
+
